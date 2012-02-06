@@ -9,6 +9,10 @@
 #define MAC_PLATFORM_ONLY YES
 #endif
 
+#if TARGET_OS_IPHONE
+#import <UIKit/UIColor.h>
+#endif
+
 #ifdef NS_BLOCKS_AVAILABLE
 
 @class NSManagedObjectContext;
